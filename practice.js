@@ -217,10 +217,13 @@ var user2 = {
 // name -> 'Tyler S. McGinnis', email -> 'tyler.mcginnis@devmounta.in'. Make that change.
 
   //Code Here
+  user2.name = 'Tyler S. McGinnis';
+  user2.email = 'tyler.mcginnis@devmounta.in';
 
 //Now call the sayName method that's on the user object which will alert the users email
 
   //Code Here
+  user2.sayName();
 
 
 
