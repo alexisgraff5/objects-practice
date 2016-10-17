@@ -305,3 +305,13 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
 */
 
   //Code Here
+  function bindCard(person, creditCard) {
+    var returnObj = {};
+    for (var key in person) {
+      returnObj[key] = person[key];
+    }
+    for (var key in creditCard) {
+      returnObj[key] = creditCard[key];
+    }
+    return returnObj;
+  }
