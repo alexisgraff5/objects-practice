@@ -101,7 +101,10 @@ Instead, console.log your whole backPack object and then check out the console. 
 //Now, loop through your object and alert every value. *Tyler --> 24 --> 6'0 --> Male, etc etc
 
   //Code Here
-
+  for (var key in alsoMe) {
+    //alert(alsoMe[key]);
+    console.log(alsoMe[key]);
+  }
 
 
 
