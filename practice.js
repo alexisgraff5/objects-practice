@@ -284,6 +284,14 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
 // Create a function called makeCard which takes in cardNumber, expirationDate, and securityCode to make a Credit Card object and returns that object so that whenever you invoke makeCard, you get a brand new credit card.
 
   //Code Here
+  function makeCard(cardNumber, expirationDate, securityCode) {
+    var creditCard = {
+      cardNumber: cardNumber,
+      expirationDate: expirationDate,
+      securityCode: securityCode
+    };
+    return creditCard;
+  }
 
 
 
