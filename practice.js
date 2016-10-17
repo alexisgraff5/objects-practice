@@ -35,6 +35,9 @@ alert(me.name);
 
   //Code here
 
+  favoriteThings.car = "Honda Accord";
+  favoriteThings.brand = "Fossil";
+
 
 //Now change the food key in your favoriteThings object to be 'Lettuce' and change the book key in your favoriteThings object to be '50 Shades of Gray'.
 
